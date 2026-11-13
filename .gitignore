@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local data never belong here
+.env
+*.env
+*.key
+*.pem
+*.sqlite
+*.sqlite3
+*.duckdb
