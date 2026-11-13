@@ -12,10 +12,10 @@ Each report states the question, the method, the results, the limits and the nex
 On 15 new mutants per suite that the author never saw, the suites killed 0 to 8.
 [Read the report](reports/held-out-mutation-exams.md).
 
-**Text-to-3D model bake-off.**
+**Text-to-3D model evaluation.**
 11 models built 3D objects for 12 blind briefs, scored by a deterministic printability check and 660 blind pairwise games.
 3 frontier models formed 1 tier at 82.0 to 87.6 of 100, each closing 7 of 9 print briefs.
-[Read the report](reports/model-bakeoff-text-to-3d.md).
+[Read the report](reports/text-to-3d-model-evaluation.md).
 
 ## Authorship
 

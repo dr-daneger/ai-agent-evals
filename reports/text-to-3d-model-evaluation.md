@@ -1,4 +1,4 @@
-# Text-to-3D model bake-off: 11 models, 12 blind briefs
+# Text-to-3D model evaluation: 11 models, 12 blind briefs
 
 Dane Stanfield (GitHub: dr-daneger). Run on 2026-09-24.
 
