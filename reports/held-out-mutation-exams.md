@@ -71,9 +71,6 @@ The runner had 3 rules:
 2. Python bytecode is disabled, so a stale cache cannot run unmutated code.
 3. A pytest usage error or an empty test selection (exit codes 3 to 5) is invalid. It never counts as a kill.
 
-About 770 mutant checks were re-run by hand to check the runner.
-They gave 0 mismatches.
-
 Each examiner then classed every surviving mutant.
 A survivor was either equivalent (no change in behavior) or a real blind spot.
 The examiner rated the suite on a fixed rule:
@@ -130,7 +127,7 @@ The faults pushed kill counts in both directions, so the earlier counts are not 
 - The control has 2 frontier-authored suites. This report makes no claim about which model writes better tests.
 - Blinding was by instruction only. No access control kept the examiner away from gate files.
 - The control suites had also been exposed to gate mutants. The run cannot separate "saw the gate mutants" from "author model".
-- The first exam ran before the runner fix. 2 of its suites were never re-measured.
+- The first exam ran before the runner fix. The corrected run did not re-measure its 3 suites.
 - 1 examiner wrote the mutants for each suite. Mutant difficulty depends on that examiner.
 - The examiner shares a model family with the frontier author.
 - 15 mutants per suite gives a coarse scale. 1 kill moves the rate by about 7 points.
